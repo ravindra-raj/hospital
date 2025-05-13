@@ -1,0 +1,56 @@
+/* General Scroll To Top Button Styles */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #BBFBFF;
+    color: #0f0909;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 1000;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #ff3b30;
+    transform: scale(1.1);
+  }
+  
+  .scroll-to-top i {
+    pointer-events: none;
+  }
+  
+  /* Responsive Styles */
+  
+  /* For tablets and small laptops */
+  @media (max-width: 1024px) {
+    .scroll-to-top {
+      width: 45px;
+      height: 45px;
+      font-size: 20px;
+      bottom: 15px;
+      right: 15px;
+    }
+  }
+  
+  /* For mobile screens */
+  @media (max-width: 768px) {
+    .scroll-to-top {
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+  .ri-arrow-up-circle-line{
+    color: black;
+  }
